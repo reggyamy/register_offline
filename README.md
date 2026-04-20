@@ -146,7 +146,10 @@ Gagal    → skip, tetap di Draft
 
 ## 📹 Demo
 
-> Lihat file `demo.mp4` 
+> Lihat file 
+
+https://github.com/user-attachments/assets/890b4f55-53df-4151-a830-2d1398b36178
+
 
 ---
 
