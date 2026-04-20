@@ -28,7 +28,7 @@ class UserViewModel @Inject constructor(
     private val isLoggedInUseCase: IsLoggedInUseCase
 ) : ViewModel() {
 
-    private val _loginState = MutableStateFlow<UiState<String>>(UiState.Loading)
+    private val _loginState = MutableStateFlow<UiState<String>?>(null)
     val loginState: StateFlow<UiState<String>?> = _loginState.asStateFlow()
 
     private val _isLoggedIn = MutableStateFlow<Boolean?>(null)
